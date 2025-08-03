@@ -27,4 +27,8 @@ public class DevopsSpringbootDevProjectApplication {
 	public String outboxMsg() {
 		return "<h1>This is Outbox !</h1>";
 	}
+
+	public String spamMsg(){
+		return "<h1>This is Spam !</h1>"
+	}	
 }
