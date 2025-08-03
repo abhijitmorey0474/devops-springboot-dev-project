@@ -29,6 +29,6 @@ public class DevopsSpringbootDevProjectApplication {
 	}
 
 	public String spamMsg(){
-		return "<h1>This is Spam !</h1>"
+		return "<h1>This is Spam !</h1>";
 	}	
 }
