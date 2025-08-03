@@ -32,4 +32,9 @@ public class DevopsSpringbootDevProjectApplication {
 	public String spamMsg(){
 		return "<h1>This is Spam !</h1>";
 	}	
+	
+	@GetMapping("/draft")
+	public String draftMsg(){
+		return "<h1>This is Draft !</h1>";
+	}	
 }
