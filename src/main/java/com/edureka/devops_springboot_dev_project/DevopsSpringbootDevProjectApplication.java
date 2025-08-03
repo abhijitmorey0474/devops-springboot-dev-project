@@ -28,6 +28,7 @@ public class DevopsSpringbootDevProjectApplication {
 		return "<h1>This is Outbox !</h1>";
 	}
 
+	@GetMapping("/spam")
 	public String spamMsg(){
 		return "<h1>This is Spam !</h1>";
 	}	
