@@ -17,4 +17,14 @@ public class DevopsSpringbootDevProjectApplication {
 	public String WelcomeMsg() {
 		return "<h1>Hello there finally !</h1>";
 	}
+	
+	@GetMapping("/inbox")
+	public String inboxMsg() {
+		return "<h1>This is Inbox !</h1>";
+	}
+	
+	@GetMapping("/outbox")
+	public String outboxMsg() {
+		return "<h1>This is Outbox !</h1>";
+	}
 }
